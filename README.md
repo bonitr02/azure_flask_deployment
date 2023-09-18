@@ -138,7 +138,7 @@
 
                               </tr>
 
-7. Change the location, for example data[1] of the column to match the new column names in from the data file
+7. Change the location, for example data[1], of the column to match the new column names in from the data file
                 
                           </thead>
                           <tbody>
