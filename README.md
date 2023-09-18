@@ -1,7 +1,7 @@
 # Azure and Flask Deployment - HHA 504 Week 2
 
 ## Python Code
-1. From the WK2/flaskapp_0 file, utilize the app.py, requirements.txt, and templates folders in the shell environment
+1. From the WK2/flaskapp_0 file, utilize the app.py, requirements.txt, and templates folders in the google shell environment
 
    The app.py file uses flask to create a template for an html website
 2. Import flask and pandas
@@ -164,6 +164,22 @@
 
 
 ## Azure
+### Azure installation in google shell
+1. Within the google shell environment's CLI, type in:
+
+            curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+2. When the installation is finished, type in Az to access the Azure CLI
+3. To access your azure account, type in:
+
+
+           az login --use-device-code 
+
+4. To connect to the appropriate resource group enter in this format:
+
+            az webapp up --resource-group (enter resource group) --name (enter name) --runtime PYTHON:3.9 --sku F1
+
+5. Enter az webapp up to push any updates to the Azure webpage. The weblink is located in the az CLI.
 
 ## URL to Flask Application
 https://riannehha504wk2.azurewebsites.net/data
